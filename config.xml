@@ -2,21 +2,21 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "net.moodlemoot.mootes14"
+        id        = "mx.edu.upp.moodle"
         versionCode = "1"
-        version   = "1.0">
-    <name>mootes14</name>
+        version   = "1.0.1">
+    <name>Moodle UPP</name>
 
     <description>
-        MoodleMoot Spain 2014 official app
+        Moodle UPP official app
     </description>
 
     <author href="http://moodle.com" email="juan@moodle.com">
-        Juan Leyva
+        Alvaro Mera
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>1.0</string>
+        <string>1.0.1</string>
     </gap:config-file>
 
     <feature name="http://api.phonegap.com/1.0/device" />
@@ -88,7 +88,7 @@
     <gap:plugin name="com.phonegap.plugins.pushplugin" />
     <gap:plugin name="net.tunts.webintent" />
     <gap:plugin name="nl.x-services.plugins.launchmyapp">
-        <param name="URL_SCHEME" value="mootes14" />
+        <param name="URL_SCHEME" value="moodleupp" />
     </gap:plugin>
     <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
 
